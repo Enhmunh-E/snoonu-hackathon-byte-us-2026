@@ -29,7 +29,7 @@ export default function Home() {
 
         {/* 3. ESSENTIALS (The Daily Drivers) */}
         <div className="px-5 mb-2">
-          <h3 className="text-xl font-bold text-white mb-6">Essentials</h3>
+          {/* <h3 className="text-xl font-bold text-white mb-6">Essentials</h3>  */}
 
           {/* 4 Columns x 2 Rows Grid */}
           <div className="grid grid-cols-4 gap-3 mb-3">
@@ -84,9 +84,9 @@ export default function Home() {
 
         {/* 4. YOUR EVERYTHING APP (New Horizontal Scroll Section) */}
         <div className="pl-5 mb-8 pt-4">
-          <h3 className="text-xl font-bold text-white mb-5">
+          {/* <h3 className="text-xl font-bold text-white mb-5">
             Your Everything App
-          </h3>
+          </h3> */}
           <div className="flex gap-3 overflow-x-auto pb-4 pr-5 scrollbar-hide">
             <SecondaryCard
               label="Laundry"
